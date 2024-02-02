@@ -27,5 +27,3 @@ public abstract class Treasure : Collectable {
         Console.WriteLine($"{this.GetType().Name} {Description} is displayed");
     }
 }
-
-

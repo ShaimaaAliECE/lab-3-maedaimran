@@ -12,21 +12,17 @@ public class Coin : Treasure {
         board.TotalValue += Value;
     }
 
-
+   
     public override void AddMe(List<Collectable> collectables) {
-        base.AddMe(collectables);
+        base.AddMe(collectables); 
         if (this.Board != null)
         {
             UpdateTotalValue(this.Board);
-            UpdateTotalValue(this.Board);
         }
-            System.Console.WriteLine("Total Value is updated to: " + this.Board.TotalValue); }
-
-       
-    
+            System.Console.WriteLine("Total Value is updated to: " + this.Board.TotalValue);
         
         public override void Display() {
-        System.Console.WriteLine("Coin" + Description + "is displayed");
+            System.Console.WriteLine("Coin" + Description+ "is displayed");
+        }
     }
 }
-    

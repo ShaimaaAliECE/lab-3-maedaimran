@@ -16,8 +16,8 @@ namespace Lab3App
             List<Collectable> possibleCollectiable = new List<Collectable>();
             // Three coins 
             possibleCollectiable.Add(new Coin("Nickel", score:20, value:5));
-            possibleCollectiable.Add(new Coin("Dime", score:40, value:10));
-            possibleCollectiable.Add(new Coin("Toony", score: 50, value: 100));
+            possibleCollectiable.Add(new Coin("Dime", score:40, value:15));
+            possibleCollectiable.Add(new Coin("Toony", score: 50, value: 115));
 
             // Five Diamonds with descriptions Diamond1, Diamond2, ... etc.
             for (int i = 1;i <= 5; i++)

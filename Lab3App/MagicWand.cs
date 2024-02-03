@@ -9,7 +9,7 @@ public class MagicWand : Tool {
         Console.WriteLine("MagicWand is Used");
     }
     public override void Display() {
-        Console.WriteLine("Axe " + Description + " is displayed");
+        Console.WriteLine("MagicWand " + Description + " is displayed");
     }
 }
     
